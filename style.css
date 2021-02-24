@@ -309,7 +309,6 @@ input.width1 {
     border: 2px solid green;
     width: 60%;
     display: inline-block;
-    float: right;
     height: 95%;
     margin-left: 5px;
     padding: 5px;
@@ -339,6 +338,14 @@ input.width1 {
     text-align: center;
 }
 
+.profile_page_upload_container:hover {
+    background-color: chartreuse;
+}
+
+.profile_page_upload_container_text {
+    text-decoration: none;
+}
+
 .profile_page_comment_container {
     border: 2px solid hotpink;
     width: 15%;
@@ -346,6 +353,15 @@ input.width1 {
     margin: auto;
     background-color: gray;
     text-align: center;
+    display: block;
+}
+
+.profile_page_comment_container:hover {
+    background-color: aquamarine;
+}
+
+.profile_page_comment_container_text {
+    text-decoration: none;
 }
 
 
