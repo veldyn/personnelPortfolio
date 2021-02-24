@@ -306,11 +306,46 @@ input.width1 {
 }
 
 .profile_page_resume_container {
-    border: 9px dashed green;
+    border: 2px solid green;
     width: 60%;
     display: inline-block;
+    float: right;
     height: 95%;
     margin-left: 5px;
+    padding: 5px;
+}
+
+.profile_page_resume_image_container {
+    border: 2px solid violet;
+    height: 90%;
+}
+
+.profile_page_button_container {
+    border: 2px solid black;
+    height: 8%;
+    margin-top: 2px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.profile_page_upload_container {
+    border: 2px solid brown;
+    width: 15%;
+    height: 90%;
+    margin: auto;
+    background-color: gray;
+    text-align: center;
+}
+
+.profile_page_comment_container {
+    border: 2px solid hotpink;
+    width: 15%;
+    height: 90%;
+    margin: auto;
+    background-color: gray;
+    text-align: center;
 }
 
 
