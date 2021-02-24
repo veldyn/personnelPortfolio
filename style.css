@@ -253,5 +253,33 @@ input.width1 {
 
 /* Below is the style for the profile_page.html */
 
+.profile_page_main_container {
+    border: 2px solid red;
+    width: auto;
+    height: 800px;
+    /* MAKE THIS DYNAMIC AND FLUID*/
+    display: flex;
+    /* overflow: hidden; */
+    padding: 15px;
+    margin: 15px;
+}
+
+.profile_page_info_container {
+    border: 19px solid yellow;
+    width: 40%;
+    height: 70%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.profile_page_resume_container {
+    border: 9px dashed green;
+    width: 60%;
+    display: inline-block;
+    float: right;
+    height: 95%;
+    margin-left: 5px;
+}
+
 
 /* End of the style for the profile_page.html */
