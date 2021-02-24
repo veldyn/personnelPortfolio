@@ -309,7 +309,6 @@ input.width1 {
     border: 9px dashed green;
     width: 60%;
     display: inline-block;
-    float: right;
     height: 95%;
     margin-left: 5px;
 }
