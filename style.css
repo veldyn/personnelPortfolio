@@ -265,11 +265,44 @@ input.width1 {
 }
 
 .profile_page_info_container {
-    border: 19px solid yellow;
+    border: 1px solid burlywood;
     width: 40%;
-    height: 70%;
+    height: 100%;
     display: inline-block;
     margin-right: 5px;
+    padding: 10px;
+}
+
+.profile_page_heading_text_container {
+    border: 5px solid violet;
+    height: 5px;
+}
+
+.profile_page_picture_container {
+    border: 5px solid violet;
+    margin: auto;
+    margin-top: 5px;
+    width: 50%;
+}
+
+.profile_page_information_container {
+    border: 5px solid violet;
+    margin-top: 5px;
+}
+
+.profile_page_bio_container {
+    border: 5px solid violet;
+    margin-top: 5px;
+}
+
+.profile_page_exp_container {
+    border: 5px solid violet;
+    margin-top: 5px;
+}
+
+.profile_page_interests_container {
+    border: 5px solid violet;
+    margin-top: 5px;
 }
 
 .profile_page_resume_container {
