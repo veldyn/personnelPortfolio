@@ -44,7 +44,7 @@
     padding-right: 10px;
     padding-left: 10px;
     background-color: #999999;
-   color: black;
+    color: black;
 }
 
 #student_login_container:hover {
@@ -113,7 +113,7 @@ a.click_footer {
 }
 
 #footer_account_container:hover {
-    background-color: 	#D3D3D3;
+    background-color: #D3D3D3;
 }
 
 
@@ -147,101 +147,111 @@ a.click_footer {
 label.form_style {
     padding: 5px;
 }
-/*create an account page (2nd-Jay)*/
+
+
 /*create an account page (2nd-Jay)*/
 
+
+/*create an account page (2nd-Jay)*/
 
 body {
-  font-family: Raleway;
+    font-family: Raleway;
 }
+
+
 /* Navigation Menu*/
 
-.navMenu { 
-  display: inline-block;
-  width: 70%;
-  text-align: center;
+.navMenu {
+    display: inline-block;
+    width: 70%;
+    text-align: center;
 }
 
 .navMenuItem a {
-  float: left;
-  padding-right: 90px;
-  font-size: 24px;
-  text-decoration: none;
+    float: left;
+    padding-right: 90px;
+    font-size: 24px;
+    text-decoration: none;
 }
 
 .navMenuItem a:hover {
-  padding-right: 90px;
-  font-size: 24px;
-  color: #0F0F0F;
-
+    padding-right: 90px;
+    font-size: 24px;
+    color: #0F0F0F;
 }
 
 .navMenuItem li {
-  display: inline-block;
-  list-style: none;
-  padding-right: 120px;
-  font-size: 24px;
+    display: inline-block;
+    list-style: none;
+    padding-right: 120px;
+    font-size: 24px;
 }
+
 
 /* Header Layout */
 
 .header {
-  background-color: #D3D3D3;
-  margin-top: -10px;
-  margin-left: -10px;
-  margin-right: -10px;
+    background-color: #D3D3D3;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 .headerLogo {
-  display: inline-block;
-  width: 20%;
-  margin-right: 10px;
-  padding-left: 60px;
-
+    display: inline-block;
+    width: 20%;
+    margin-right: 10px;
+    padding-left: 60px;
 }
+
 
 /* Content Margins */
-.content {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-right: 150px;
-  margin-left: 80px;
 
+.content {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 150px;
+    margin-left: 80px;
 }
+
 
 /* For Form Inputs Spacing */
+
 input {
-  text-align: center;
-  padding: 10px;
-  border: 1px solid #aaaaaa;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
 }
 
-
 table {
-  text-align: center;
-  border: 1px solid black;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 25px;
-  padding: 20px;
-  width: 50%;  
+    text-align: center;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding: 20px;
+    width: 50%;
 }
 
 td.width {
-  width: 200px;
+    width: 200px;
 }
 
 td.width2 {
-  width: 50%;
-  
+    width: 50%;
 }
 
 input.width {
-  width: 60%;
+    width: 60%;
 }
 
 input.width1 {
-  margin: auto;
-  width: 30%;
+    margin: auto;
+    width: 30%;
 }
 
+
+/* Below is the style for the profile_page.html */
+
+
+/* End of the style for the profile_page.html */
