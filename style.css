@@ -336,6 +336,7 @@ input.width1 {
     margin: auto;
     background-color: gray;
     text-align: center;
+    display: block;
 }
 
 .profile_page_upload_container:hover {
