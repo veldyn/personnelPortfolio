@@ -1,13 +1,3 @@
-<?php
-include 'db_connection.php';
-$conn = OpenCon();
-$query = "SELECT * FROM Listing";
-$result = $conn->query($query);
-while ($row = mysqli_fetch_array($result)){
-    echo "".$row[CompanyName]."".$row[Title]."<br>";
-}
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -46,6 +36,30 @@ while ($row = mysqli_fetch_array($result)){
                 
                 <img src="images/Google_Logo.png" alt="Google Logo" width=100 height="100" />
                 <div id="listing_Text">
+                <?php
+                    include 'db_connection.php';
+                    $conn = OpenCon();
+
+                    if ($conn->connect_error) {
+                        die("Connection failed: " . $conn->connect_error);
+                    }
+                      
+                    $sql = "SELECT CompanyName, Title FROM Listings";
+                    $result = $conn->query($sql);
+                      
+                    if ($result->num_rows > 0) {
+                        echo "<table><tr><th>Company Name</th><th>Title</th></tr>";
+                        // output data of each row
+                        while($row = $result->fetch_assoc()) {
+                            echo "<tr><td>".$row["CompanyName"]."</td><td>".$row["Title"]." "."</td></tr>";
+                        }
+                        echo "</table>";
+                    }   else {
+                        echo "0 results";
+                    }
+                    $conn->close();
+                    ?>    
+                    
                 <p>Title
                     <br>Company
                     <br>Location
@@ -155,7 +169,29 @@ while ($row = mysqli_fetch_array($result)){
             
 
         </div></div>
+        <?php
+                    include 'db_connection.php';
+                    $conn = OpenCon();
 
+                    if ($conn->connect_error) {
+                        die("Connection failed: " . $conn->connect_error);
+                    }
+                      
+                    $sql = "SELECT CompanyName, Title FROM Listings";
+                    $result = $conn->query($sql);
+                      
+                    if ($result->num_rows > 0) {
+                        echo "<table><tr><th>Company Name</th><th>Title</th></tr>";
+                        // output data of each row
+                        while($row = $result->fetch_assoc()) {
+                            echo "<tr><td>".$row["CompanyName"]."</td><td>".$row["Title"]." "."</td></tr>";
+                        }
+                        echo "</table>";
+                    }   else {
+                        echo "0 results";
+                    }
+                    $conn->close();
+                    ?>
         <div class='footer'>Personnel Portfolio</div>
 
         </div>
