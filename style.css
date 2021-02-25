@@ -250,6 +250,62 @@ input.width1 {
     width: 30%;
 }
 
+/* Per Listing Page */
+
+.lineHeightSpread {
+  line-height: 600%;
+}
+
+.firstHalfColumn {
+  width: 49%;
+  display: inline-block;
+  margin: auto;
+
+}
+.secondHalfColumn {
+  width: 49%;
+  display: inline-block;
+  margin: auto;
+  vertical-align: top;
+
+}
+
+.fullWidth {
+  width: 100%;
+} 
+
+.companyBox {
+    border: 2px solid black;
+    border-radius: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    background-color: white;
+    display: block;
+    position: relative;
+    width: auto;
+     height: 635px;
+    margin-left: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #EFEFEF;
+    
+
+}
+.btn {
+  border: solid 1px black;
+  background-color: green;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-family: Raleway;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border-radius: 16px;
+  text-align: center;
+  margin-left: 250px;
+  margin-right: auto;
+}
+
 
 /* Below is the style for the profile_page.html */
 
