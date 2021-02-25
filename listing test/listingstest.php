@@ -2,7 +2,7 @@
 include 'db_connection.php';
 $conn = OpenCon();
 $query = "SELECT * FROM Listing";
-$result = mysqli_query($conn,$query);
+$result = $conn->query($query);
 while ($row = mysqli_fetch_array($result)){
     echo "".$row[CompanyName]."".$row[Title]."<br>";
 }
