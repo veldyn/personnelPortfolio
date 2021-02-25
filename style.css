@@ -250,29 +250,29 @@ input.width1 {
     width: 30%;
 }
 
+
 /* Per Listing Page */
 
 .lineHeightSpread {
-  line-height: 600%;
+    line-height: 600%;
 }
 
 .firstHalfColumn {
-  width: 49%;
-  display: inline-block;
-  margin: auto;
-
+    width: 49%;
+    display: inline-block;
+    margin: auto;
 }
-.secondHalfColumn {
-  width: 49%;
-  display: inline-block;
-  margin: auto;
-  vertical-align: top;
 
+.secondHalfColumn {
+    width: 49%;
+    display: inline-block;
+    margin: auto;
+    vertical-align: top;
 }
 
 .fullWidth {
-  width: 100%;
-} 
+    width: 100%;
+}
 
 .companyBox {
     border: 2px solid black;
@@ -284,26 +284,25 @@ input.width1 {
     display: block;
     position: relative;
     width: auto;
-     height: 635px;
+    height: 635px;
     margin-left: 15px;
     padding-left: 10px;
     padding-right: 10px;
     background-color: #EFEFEF;
-    
-
 }
+
 .btn {
-  border: solid 1px black;
-  background-color: green;
-  padding: 15px 30px;
-  font-size: 16px;
-  font-family: Raleway;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  border-radius: 16px;
-  text-align: center;
-  margin-left: 250px;
-  margin-right: auto;
+    border: solid 1px black;
+    background-color: green;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-family: Raleway;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 16px;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: auto;
 }
 
 
@@ -347,23 +346,38 @@ img.profile_page_profile_image {
 }
 
 .profile_page_information_container {
-    border: 5px solid violet;
-    margin-top: 5px;
+    border: 5px solid green;
+    margin: auto;
+    width: 50%;
+}
+
+.profile_page_information_text_container {
+    border: 2px solid mediumorchid;
+}
+
+p.profile_page_information_text {
+    text-align: center;
 }
 
 .profile_page_bio_container {
     border: 5px solid violet;
     margin-top: 5px;
+    height: auto;
+    word-wrap: break-word;
 }
 
 .profile_page_exp_container {
     border: 5px solid violet;
     margin-top: 5px;
+    height: auto;
+    word-wrap: break-word;
 }
 
 .profile_page_interests_container {
     border: 5px solid violet;
     margin-top: 5px;
+    height: auto;
+    word-wrap: break-word;
 }
 
 .profile_page_resume_container {
