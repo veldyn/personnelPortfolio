@@ -449,3 +449,40 @@ img.profile_page_resume_image {
 
 
 /* End of the style for the profile_page.html */
+
+
+/* Footer template */
+
+address {
+    font-family: Verdana;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-top: 1px solid white;
+    background-color: black;
+}
+
+button,
+select {
+    font-size: 16px;
+    font-family: Karla, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #666;
+    line-height: 1.375;
+}
+
+.rowFooter:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.columnFooter {
+    float: left;
+    width: 33.33%;
+    align-content: center;
+}
+
+
+/* End of the style for the footer section */
