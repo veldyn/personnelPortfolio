@@ -501,6 +501,7 @@ select {
     margin: auto;
     padding: 10px;
     overflow: hidden;
+    margin-bottom: 30px;
 }
 
 .create_listing_form_table_container {
