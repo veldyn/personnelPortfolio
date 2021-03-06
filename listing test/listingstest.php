@@ -11,14 +11,15 @@
 <body>
     <div class='wrapper'>
     
-	<div class='header'></div>
+	<!-- <div class='header'></div>
       <div class='navbar'>
         <div class='button'><a href='index.php'>Home</a></div>
         <div class='button'><a href='index.php?page=internships'>Internships</a></div>
         <div class='button'><a href='index.php?page=listings'>Listings</a></div>
         <div class='button'><a href='index.php?page=employers'>Employers</a></div>
           
-        </div>
+        </div> -->
+        <?php include 'header.php'; ?>
 
         <div class='mainbody'><div id="search_container">
             <div id="listing_label">
