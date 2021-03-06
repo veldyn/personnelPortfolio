@@ -21,16 +21,54 @@
                     <li><a href="create-account.html">Jobs</a></li>
                     <li><a href="listings.html">Listings</a></li>
                     <li><a href="employers.asp">Employers</a></li>
+                    <li><a href="about.html">About</a></li>
                 </div>
             </ul>
             <hr>
         </div>
     </header>
 
-    <main>
-        <div style="height: 400px;">
 
+    <main class="main-content" role="main">
+        <div class="page-width">
+            <h1 class="small--text-center">Contact Us</h1>
+            <!-- Displayes contact information -->
+            <div class="content-block">
+                <div class="rte">
+                    <h4>Give us a call</h4>
+                    <p>555-555-5555<br>2150 Virginia Street, New York, NY 60154<br><a href="mailto:name@company.com">name@company.com</a></p>
+                    <h4>Operation hours</h4>
+                    <p>Monday - Friday: 6:30am&nbsp;- 6:30pm<br>Saturday and Sunday: 8:00am - 4:00pm</p>
+                </div>
+            </div>
+            <!-- contains form for submitted message front end only -->
+            <div class="content-block">
+                <div class="contact-form form-vertical">
+                    <form method="get" id="contact_form" accept-charset="UTF-8" class="contact-form"><input type="hidden" name="form_type" value="contact"><input type="hidden" name="utf8" value="✓">
+
+                        <div class="grid grid--half-gutters">
+                            <div class="grid__item medium-up--one-half">
+                                <label for="ContactFormName" class="label--hidden">Name</label>
+                                <input type="text" id="ContactFormName" name="contact[name]" placeholder="Name" value="">
+                            </div>
+                            <div class="grid__item medium-up--one-half">
+                                <label for="ContactFormEmail" class="label--hidden">Email</label>
+                                <input type="email" id="ContactFormEmail" name="contact[email]" placeholder="Email" autocorrect="off" autocapitalize="off" value="" style="margin-right: 15pxx;">
+                            </div>
+                        </div>
+
+                        <label for="ContactFormPhone" class="label--hidden">Phone Number</label>
+                        <input type="tel" id="ContactFormPhone" name="contact[phone]" placeholder="Phone Number" pattern="[0-9\-]*" value="">
+
+                        <label for="ContactFormMessage" class="label--hidden">Message</label>
+                        <textarea rows="10" id="ContactFormMessage" name="contact[body]" placeholder="Message"></textarea>
+
+                        <input type="submit" class="btn" value="Send" onclick="myFunction()">
+                    </form>
+                </div>
+            </div>
         </div>
+
 
     </main>
 
