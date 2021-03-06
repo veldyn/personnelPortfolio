@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <meta charset="utf-8">
+    <title>Personnel Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+       <?php include 'header.php'; ?>
+    <div class="content">
+        <div class="profile_page_main_container">
+            <!-- OUTSIDE CONTAINER DIV -->
+            <div class="profile_page_info_container">
+                <!-- INSIDE CONTENT OF THE DIV -->
+
+                <div class="profile_page_heading_text_container">
+                    <!-- Add content if needed -->
+                    <h1 style="text-align: center;">Hurt Hurt SKRT SKRT</h1>
+                </div>
+                <div class="profile_page_picture_container">
+                    <img src="images/hurthurt.png" width="auto" height="300px" alt="profile picture" title="phrank" class="profile_page_profile_image">
+                </div>
+                <div class="profile_page_information_container">
+                    <div class="profile_page_information_text_container">
+                        <p class="profile_page_information_text">
+                            <span class="profile_page_information_name"> Skrts Then Hurts</span>
+                            <br>
+                            <span class="profile_page_information_email">skrtskrthurthurt@fistbump.ussr</span>
+                            <br>
+                            <span class="profile_page_information_standing">Comrade</span>
+                            <br>
+                            <span class="profile_page_information_education">Moscow State University</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="profile_page_bio_container">
+                    <p>BIO:
+                        <br> WE FIGHT FOR OUR COUNTRY asdfasdkjfhasdlkjfhaklsdjhflkjasdhfffffasdfasdkjfhasdlkjfhaklsdjhflkjasdhfffffasdfasdkjfhasdlkjfhaklsdjhflkjasdhfffffasdfasdkjfhasdlkjfhaklsdjhflkjasdhfffffasdfasdkjfhasdlkjfhaklsdjhflkjasdhfffffasdfasdkjfhasdlkjfhaklsdjhflkjasdhfffffasdfasdkjfhasdlkjfhaklsdjhflkjasdhfffffasdfasdkjfhasdlkjfhaklsdjhflkjasdhfffffasdfasdkjfhasdlkjfhaklsdjhflkjasdhfffffasdfasdkjfhasdlkjfhaklsdjhflkjasdhfffffasdfasdkjfhasdlkjfhaklsdkjfhasdlkjfhaklsdjhflkjasdhfffffasdfasdkjfhasdlkjfhaklsdjhflkjasdhfffffasdfasdkjfhasdlkjfhaklsdjhflkjasdhfffffasdfasdkjfhasdlkjfhaklsdjhflkjasdhfffffasdfasdkjfhasdlkjfhaklsdjhflkjasdhfffff
+                    </p>
+                </div>
+                <div class="profile_page_exp_container">
+                    <p>Position
+                        <br>
+                        <span><i>Commander,</i> USSR Army</span>
+                        <ul>
+                            <li>We only win</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="profile_page_interests_container">
+                    <p>Interest
+                        <br>
+                        <span>We need to our brothers to find a job</span>
+                    </p>
+                </div>
+            </div>
+            <div class="profile_page_resume_container">
+                <div class="profile_page_resume_image_container">
+                    <img src="images/hurthurtskrtskrt.JPG" alt="some picture" class="profile_page_resume_image">
+                </div>
+                <div class="profile_page_button_container">
+                    <div class="profile_page_upload_container">
+                        <h3>
+                            <a href="#" class="profile_page_upload_container_text">Upload</a>
+                        </h3>
+                    </div>
+                    <div class="profile_page_comment_container">
+                        <h3>
+                            <a href="#" class="profile_page_comment_container_text">Comment</a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
