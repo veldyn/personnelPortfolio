@@ -1,0 +1,567 @@
+/* Style for the INDEX2.HTML page */
+
+
+/* Style for the header */
+
+#header_outside_container {
+    /* border: 2px solid green; */
+    background-color: gray;
+    height: 100px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#header_inside_container {
+    margin: auto;
+    width: 50%;
+    /* border: 2px solid yellow; */
+    padding: 5px;
+}
+
+#header_text {
+    text-align: center;
+    color: black;
+}
+
+
+/* 
+/* Style for the main */
+
+#main_container {
+    margin-top: 5px;
+    width: 99%;
+    border: 5px solid black;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-color: white;
+}
+
+#student_login_container {
+    /* border: 2px solid red; */
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #999999;
+    color: black;
+}
+
+#student_login_container:hover {
+    background-color: gray;
+}
+
+#employer_login_container {
+    /* border: 2px solid pink; */
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #999999;
+}
+
+#employer_login_container:hover {
+    background-color: gray;
+}
+
+*/
+/* Style for the footer */
+
+
+/* 
+#footer_container {
+    margin-top: 5px;
+    width: 100%;
+    border: 2px solid black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+#footer_text_container {
+    
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    color: black;
+}
+
+#footer_account_container {
+    border: 2px solid black;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    background-color: white;
+    height: auto;
+    display: block;
+    position: relative;
+    width: auto;
+    margin-left: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#footer_text_account {
+    color: black;
+    position: relative;
+    display: inline-block;
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+a.click_footer {
+    text-decoration: none;
+}
+
+#footer_account_container:hover {
+    background-color: #D3D3D3;
+} */
+
+
+/* END OF STYLE FOR INDEX2.HTML PAGE */
+
+
+/* START OF STYLE FOR CREATE_ACCOUNT.HTML PAGE */
+
+
+/* Style for the main form */
+
+#form_container {
+    width: 50%;
+    margin: auto;
+    border: 2px solid green;
+    padding: 5px;
+}
+
+#form_container_contents {
+    width: 50%;
+    margin: auto;
+    border: 2px green solid;
+    padding: 5px;
+}
+
+.form_style {
+    text-align: center;
+    padding: 5px;
+}
+
+label.form_style {
+    padding: 5px;
+}
+
+
+/*create an account page (2nd-Jay)*/
+
+
+/*create an account page (2nd-Jay)*/
+
+body {
+    font-family: Raleway;
+}
+
+
+/* Navigation Menu*/
+
+.navMenu {
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+}
+
+.navMenuItem a {
+    float: left;
+    padding-right: 90px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.navMenuItem a:hover {
+    padding-right: 90px;
+    font-size: 24px;
+    color: #0F0F0F;
+}
+
+.navMenuItem li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 120px;
+    font-size: 24px;
+}
+
+
+/* Header Layout */
+
+.header {
+    background-color: #D3D3D3;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.headerLogo {
+    display: inline-block;
+    width: 20%;
+    margin-right: 10px;
+    padding-left: 60px;
+}
+
+
+/* Content Margins */
+
+
+/* 
+.content {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 150px;
+    margin-left: 80px;
+} */
+
+
+/* For Form Inputs Spacing */
+
+
+/* 
+input {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+
+table {
+    text-align: center;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding: 20px;
+    width: 50%;
+}
+
+td.width {
+    width: 200px;
+}
+
+td.width2 {
+    width: 50%;
+}
+
+input.width {
+    width: 60%;
+}
+
+input.width1 {
+    margin: auto;
+    width: 30%;
+}
+
+
+/* Per Listing Page */
+
+.lineHeightSpread {
+    line-height: 600%;
+}
+
+.firstHalfColumn {
+    width: 49%;
+    display: inline-block;
+    margin: auto;
+}
+
+.secondHalfColumn {
+    width: 49%;
+    display: inline-block;
+    margin: auto;
+    vertical-align: top;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.companyBox {
+    border: 2px solid black;
+    border-radius: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    background-color: white;
+    display: block;
+    position: relative;
+    width: auto;
+    height: 635px;
+    margin-left: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #EFEFEF;
+}
+
+.btn {
+    border: solid 1px black;
+    background-color: green;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-family: Raleway;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 16px;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: auto;
+}
+
+*/
+/* Below is the style for the profile_page.html */
+
+.profile_page_main_container {
+    border: 2px solid red;
+    width: auto;
+    height: auto;
+    /* MAKE THIS DYNAMIC AND FLUID*/
+    display: flex;
+    /* overflow: hidden; */
+    padding: 15px;
+    margin: 15px;
+}
+
+.profile_page_info_container {
+    border: 1px solid burlywood;
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+.profile_page_heading_text_container {
+    border: 5px solid violet;
+    height: auto;
+}
+
+.profile_page_picture_container {
+    border: 5px solid violet;
+    margin: auto;
+    margin-top: 5px;
+    width: 50%;
+}
+
+img.profile_page_profile_image {
+    margin: auto;
+    display: block;
+}
+
+.profile_page_information_container {
+    border: 5px solid green;
+    margin: auto;
+    width: 50%;
+}
+
+.profile_page_information_text_container {
+    border: 2px solid mediumorchid;
+}
+
+p.profile_page_information_text {
+    text-align: center;
+}
+
+.profile_page_bio_container {
+    border: 5px solid violet;
+    margin-top: 5px;
+    height: auto;
+    word-wrap: break-word;
+}
+
+.profile_page_exp_container {
+    border: 5px solid violet;
+    margin-top: 5px;
+    height: auto;
+    word-wrap: break-word;
+}
+
+.profile_page_interests_container {
+    border: 5px solid violet;
+    margin-top: 5px;
+    height: auto;
+    word-wrap: break-word;
+}
+
+.profile_page_resume_container {
+    border: 2px solid green;
+    width: 60%;
+    display: inline-block;
+    height: 95%;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.profile_page_resume_image_container {
+    border: 2px solid violet;
+    height: auto;
+    padding: 10px;
+}
+
+img.profile_page_resume_image {
+    margin: auto;
+    width: 80%;
+    display: block;
+}
+
+.profile_page_button_container {
+    border: 2px solid black;
+    height: 8%;
+    margin-top: 2px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.profile_page_upload_container {
+    border: 2px solid brown;
+    width: 15%;
+    height: 90%;
+    margin: auto;
+    background-color: gray;
+    text-align: center;
+    display: block;
+}
+
+.profile_page_upload_container:hover {
+    background-color: chartreuse;
+}
+
+.profile_page_upload_container_text {
+    text-decoration: none;
+}
+
+.profile_page_comment_container {
+    border: 2px solid hotpink;
+    width: 15%;
+    height: 90%;
+    margin: auto;
+    background-color: gray;
+    text-align: center;
+    display: block;
+}
+
+.profile_page_comment_container:hover {
+    background-color: aquamarine;
+}
+
+.profile_page_comment_container_text {
+    text-decoration: none;
+}
+
+
+/* End of the style for the profile_page.html */
+
+
+/* Footer template */
+
+address {
+    font-family: Verdana;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-top: 1px solid white;
+    background-color: black;
+}
+
+button,
+select {
+    font-size: 16px;
+    font-family: Karla, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #666;
+    line-height: 1.375;
+}
+
+.rowFooter:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.columnFooter {
+    float: left;
+    width: 33.33%;
+    align-content: center;
+}
+
+
+/* End of the style for the footer section */
+
+.create_listing_form_container {
+    border: 2px solid green;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.create_listing_form_table_container {
+    border: 2px solid yellowgreen;
+    width: auto;
+    margin-right: 5px;
+    padding: 5px;
+    float: left;
+    margin-left: auto;
+    display: inline-block;
+    position: relative;
+}
+
+.create_listing_form_right_container {
+    border: 2px solid pink;
+    margin-left: 5px;
+    float: left;
+    width: auto;
+    margin-right: auto;
+    display: inline-block;
+    top: 50%;
+}
+
+.creating_listing_content_container {
+    border: 2px dashed slateblue;
+    overflow: hidden;
+    height: auto;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+}
+
+tr {
+    height: 75px;
+}
+
+td {
+    padding-left: 10px;
+}
+
+form {
+    width: auto;
+    margin: auto;
+}
+
+.create_listing_button_continer {
+    border: 2px solid rebeccapurple;
+    width: 50%;
+    margin: auto;
+}
+
+button {
+    margin: auto;
+    display: flex;
+}
