@@ -1,0 +1,79 @@
+.create_listing_form_container {
+    border: 2px solid green;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.create_listing_form_table_container {
+    border: 2px solid yellowgreen;
+    width: auto;
+    margin-right: 5px;
+    padding: 5px;
+    float: left;
+    margin-left: auto;
+    display: inline-block;
+    position: relative;
+}
+
+.create_listing_form_right_container {
+    border: 2px solid pink;
+    margin-left: 5px;
+    
+    width: 600px;
+    margin-right: auto;
+    display: inline-block;
+    top: 50%;
+}
+
+.creating_listing_content_container {
+    border: 2px dashed slateblue;
+    overflow: hidden;
+    height: auto;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+}
+
+tr {
+    height: 75px;
+}
+
+td {
+    padding-left: 10px;
+}
+
+form {
+    width: auto;
+    margin: auto;
+}
+
+.create_listing_button_continer {
+    border: 2px solid rebeccapurple;
+    width: 50%;
+    margin: auto;
+}
+
+button {
+    margin: auto;
+    display: flex;
+}
+body {
+    margin-bottom:50px;
+}
+
+textarea{
+    resize: none;
+}
