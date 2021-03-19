@@ -12,7 +12,7 @@
               
     <div class="content">
       <br><br>
-      <form action="connection.php" id="regForm" method="post">
+      <form action="register.php" id="regForm" method="post">
         <h1 align="center">Create an Account</h1>
         <table>
           <tr>
