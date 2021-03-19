@@ -1,173 +1,81 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 
 <head>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     <meta charset="utf-8">
-    <title>Job Search</title>
+    <title>Personnel Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        #header_container {
-            margin-right: 10px;
-            margin-left: 10px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            border: 10px solid green;
-            height: 100px;
-        }
-        
-        #search_container {
-            margin-right: 350px;
-            margin-left: 350px;
-            border: 10px solid goldenrod;
-            height: 50px;
-            padding: 5px;
-            overflow: hidden;
-        }
-        
-        #search_citeria {
-            margin-left: 10px;
-            height: 90%;
-            border: 5px solid blue;
-            margin-bottom: 5px;
-            float: left;
-            width: 48%;
-            text-align: center;
-        }
-        
-        #location_citeria {
-            margin-right: 10px;
-            height: 90%;
-            border: 5px solid yellowgreen;
-            margin-bottom: 5px;
-            float: right;
-            width: 48%;
-            text-align: center;
-        }
-        
-        #listing_container {
-            margin-top: 10px;
-            margin-right: 350px;
-            margin-left: 350px;
-            border: 10px solid blueviolet;
-            padding: 5px;
-            width: 58%;
-            height: max-content;
-        }
-        
-        #job_listing_container {
-            margin: 5px;
-            border: 2px dashed black;
-            width: auto;
-            height: 20%;
-            padding-left: 10px;
-        }
-    </style>
-
-
-
 </head>
 
 <body>
     <header>
-        <div id="header_container">
-
+        <div class="header">
+            <div class="headerLogo">
+                <a href="index.html" style="text-decoration:none;color:black;">
+                    <h1 style="text-align: left; text-d>
+            </div>
+            <ul class=" navMenu">
+                        <div class="navMenuItem">
+                            <!---  <li><a href="hometest.html">Home</a></li> -->
+                <li><a href="job.html">Jobs</a></li>
+                <li><a href="listings.html">Listings</a></li>
+                <li><a href="employers.asp">Employers</a></li>
+            </div>
+            </ul>
+            <hr>
+        </div>
+        <div id="header_outside_container">
+            <div id="header_inside_container">
+                <h1 id="header_text">Welcome to Personnel Portfolio</h1>
+            </div>
         </div>
     </header>
-
     <main>
-        <div id="search_container">
-            <div id="search_citeria">
-                <h2>Search Criteria</h2>
+        <div id="main_container">
+            <div id="student_login_container">
+                <a href="#" style="text-decoration: none;">
+                    <h2>Search for Internships</h2>
+                </a>
             </div>
-
-            <div id="location_citeria">
-                <h2>Location Criteria</h2>
-            </div>
-        </div>
-
-        <div id="listing_container">
-            <div id="job_listing_container">
-                <p>Title
-                    <br>Description
-                    <br>Location
-                </p>
-
-            </div>
-            <div id="job_listing_container">
-                <p>Title
-                    <br>Description
-                    <br>Location
-                </p>
-
-            </div>
-            <div id="job_listing_container">
-                <p>Title
-                    <br>Description
-                    <br>Location
-                </p>
-
-            </div>
-            <div id="job_listing_container">
-                <p>Title
-                    <br>Description
-                    <br>Location
-                </p>
-
-            </div>
-            <div id="job_listing_container">
-                <p>Title
-                    <br>Description
-                    <br>Location
-                </p>
-
-            </div>
-            <div id="job_listing_container">
-                <p>Title
-                    <br>Description
-                    <br>Location
-                </p>
-
-            </div>
-            <div id="job_listing_container">
-                <p>Title
-                    <br>Description
-                    <br>Location
-                </p>
-
-            </div>
-            <div id="job_listing_container">
-                <p>Title
-                    <br>Description
-                    <br>Location
-                </p>
-
-            </div>
-            <div id="job_listing_container">
-                <p>Title
-                    <br>Description
-                    <br>Location
-                </p>
-
-            </div>
-            <div id="job_listing_container">
-                <p>Title
-                    <br>Description
-                    <br>Location
-                </p>
-
-            </div>
-            <div id="job_listing_container">
-                <p>Title
-                    <br>Description
-                    <br>Location
-                </p>
-
+            <div id="employer_login_container">
+                <a href="create_listing.html" style="text-decoration: none;">
+                    <h2>Post an Internship Listing</h2>
+                </a>
             </div>
         </div>
     </main>
-
     <footer>
-
+        <div id="footer_container">
+            <div id="footer_text_container">
+                <h2 id="footer_text_new">New to Personnel Portfolio?</h2>
+            </div>
+            <div id="footer_account_container">
+                <a href="create-account.html" class="click_footer">
+                    <h2 id="footer_text_account">Create Account</h2>
+                </a>
+            </div>
+        </div>
+        <!-- Address tag centered and button which brings you back to top of page -->
+        <address id="Footer">
+            <a id="button" href="index.html">Back to Top</a><br><br>
+            <div class="rowFooter">
+                <div class="columnFooter">
+                    <!--contact, support, and about sample information provided in footer-->
+                    <h3>Contact</h3>
+                    <p style=color:gray;>2150 Virginia Street, New York, NY 60154<br> 555-555-5555<br> name@compan>
+                    </p>
+                </div>
+                <div class="columnFooter">
+                    <h3>Support</h3>
+                    <p style=color:gray;>Terms and Conditions <br> Privacy Policy <br> Return Policy</p>
+                </div>
+                <div class="columnFooter">
+                    <h3>About</h3>
+                    <p style=color:gray;>About <br> News <br> Contact</p>
+                </div>
+            </div>
+        </address>
     </footer>
 </body>
 
