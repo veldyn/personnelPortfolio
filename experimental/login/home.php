@@ -2,7 +2,7 @@
 include "config.php";
 
 // Check user login or not
-if(!isset($_SESSION['uname'])){
+if(!isset($_SESSION['username'])){
     header('Location: index.html');
 }
 
@@ -12,6 +12,7 @@ if(isset($_POST['but_logout'])){
     header('Location: index.html');
 }
 ?>
+
 <!doctype html>
 <html>
     <head></head>
