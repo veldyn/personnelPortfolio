@@ -1,13 +1,3 @@
-<?php
-include 'db_connection.php';
-$conn = OpenCon();
-$query = "SELECT * FROM Listing";
-$result = mysqli_query($conn,$query);
-while ($row = mysqli_fetch_array($result)){
-    echo "".$row[CompanyName]."".$row[Title]."<br>";
-}
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -46,11 +36,29 @@ while ($row = mysqli_fetch_array($result)){
                 
                 <img src="images/Google_Logo.png" alt="Google Logo" width=100 height="100" />
                 <div id="listing_Text">
-                <p>Title
-                    <br>Company
-                    <br>Location
-                    <br>Description
-                </p>
+                <?php
+                    include 'db_connection.php';
+                    $conn = OpenCon();
+
+                    if ($conn->connect_error) {
+                        die("Connection failed: " . $conn->connect_error);
+                    }
+                      
+                    $sql = "SELECT CompanyName, Title, intLoc FROM Listings";
+                    $result = mysqli_query($conn, $sql);
+
+                    if (mysqli_num_rows($result) > 0) {
+                      // output data of each row
+                      while($row = mysqli_fetch_assoc($result)) {
+                        echo "Company Name: " . $row["CompanyName"]. "<br>"." - Title: " . $row["Title"]."<br>"."- Location: " . $row["intLoc"]. " ". "<br>";
+                      }
+                    } else {
+                      echo "0 results";
+                    }
+                    
+                    mysqli_close($conn);
+                    ?>   
+                    
                 </div>
             </div>
             <div id="job_listing_container">
@@ -155,7 +163,7 @@ while ($row = mysqli_fetch_array($result)){
             
 
         </div></div>
-
+        
         <div class='footer'>Personnel Portfolio</div>
 
         </div>
