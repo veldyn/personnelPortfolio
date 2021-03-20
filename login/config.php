@@ -10,3 +10,4 @@ $con = mysqli_connect($host, $user, $password,$dbname) or die("Connect failed: %
 if (!$con) {
   die("Connection failed: " . mysqli_connect_error());
 }
+?>
