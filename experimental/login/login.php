@@ -1,5 +1,5 @@
 <?php
-include "connection.php";
+include "config.php";
 
 if(isset($_POST['but_submit'])){
 
