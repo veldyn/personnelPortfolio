@@ -21,7 +21,7 @@
                 $conn->close();
         }
         // function duplicateEmail ($emailAddress) {
-        //  $sql = "SELECT emailAddress FROM test WHERE emailAddress = '$emailAddress'";
+        //  $sql = "SELECT emailAddress FROM users WHERE emailAddress = '$emailAddress'";
         //  $emailResult = mysqli_query($conn, $sql);
         //  $existingEmail = mysqli_num_rows($emailResult);
         //  if ($existingEmail > 0) {
@@ -34,7 +34,7 @@
         // }
 
         // function duplicateUsername ($username) {
-        //         $sql = "SELECT username FROM test WHERE username = '$username'";
+        //         $sql = "SELECT username FROM users WHERE username = '$username'";
         //         $usernameResult = mysqli_query($conn, $sql);
         //         $existingUsername = mysqli_num_rows($usernameResult);
         //         if ($existingUsername > 0) {
