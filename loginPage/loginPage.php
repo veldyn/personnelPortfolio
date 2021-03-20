@@ -6,24 +6,27 @@
     <meta charset="utf-8">
     <title>Personnel Portfolio</title>
     <link rel="stylesheet" href="/personnelPortfolio/style.css">
-    <link rel="stylesheet" href="loginPage_style.css">
+    <link rel="stylesheet" href="/almostComp/css/create_listing.css">
+	<link rel="stylesheet" href="loginPage_style.css">    
 </head>
 
 <body>
-     <header>
+   <header>
         <div class="header">
+
             <div class="headerLogo">
-                <h1 style="text-align: left;" width="30%">Personnel Portfolio</h1>
+                <a href="index.html" style="text-decoration: none; color: black">
+                    <h1 style="text-align: left" width="30%">Personnel Portfolio</h1>
+                </a>
             </div>
             <ul class="navMenu">
                 <div class="navMenuItem">
-                    <li><a href="hometest.html">Home</a></li>
-                    <li><a href="job.html">Jobs</a></li>
-                    <li><a href="listings.html">Listings</a></li>
-                    <li><a href="employers.asp">Employers</a></li>
+                    <li><a href="create_listing.html">Create Listings</a></li>
+                    <li><a href="listings.php">Listings</a></li>
+
                 </div>
             </ul>
-            <hr>
+            <hr />
         </div>
     </header> 
 
@@ -44,14 +47,15 @@
             </table>
             <br>
             <p style="text-align: center;">
-                <input style="text-align: center;" class="width1" type="submit" value="Enter" name="submit">
+                <input style="text-align: center;" class="width1" type="submit" value="Enter" name="submit"><br><br><br><br><br><br><br><br><br><br>
             </p>
         </form>
     </main>
     <footer>
+
         <!-- Address tag centered and button which brings you back to top of page -->
         <address id="Footer">
-            <a id="button" href="loginPage.html">Back to Top</a><br><br>
+            <a id="button" href="loginPage.php">Back to Top</a><br><br>
             <div class="rowFooter">
                 <div class="columnFooter">
                     <!--contact, support, and about sample information provided in footer-->
