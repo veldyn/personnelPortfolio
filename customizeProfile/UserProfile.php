@@ -1,3 +1,10 @@
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <meta charset="utf-8">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <main>
     <div class="profile_page_main_container">
         <!-- OUTSIDE CONTAINER DIV -->
