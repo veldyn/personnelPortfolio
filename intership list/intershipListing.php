@@ -48,6 +48,8 @@ while( $record = mysqli_fetch_assoc($resultset)){
                     <br><?php echo $record['company_name']; ?>
                     <br><?php echo $record['locationInt']; ?>
                     <br><?php echo $record['description']; ?>
+                    <br><?php echo $record['description']; ?>
+                    <!-- /* <br><?php echo "<a href='personnelport.careers/listing-" . $record['listingID'] . ".php'>Click here to Learn More</a>"; ?> */ -->
                 </p>
                 </div>
             </div>
