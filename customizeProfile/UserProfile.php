@@ -41,7 +41,7 @@
             <div class="profile_page_exp_container">
                 <p>Position
                     <br>
-                    <span><i>Volunteer,</i> Habitat for Humanit ReStore</span>
+                    <span><i>Volunteer,</i> Habitat for Humanity ReStore</span>
                 <ul>
                     <li>January 2019 - April 2019</li>
                     <li>Collaborated with fellow volunteers through organizing items in the storeroom and main floor</li>
