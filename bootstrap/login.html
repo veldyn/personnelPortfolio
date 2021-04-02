@@ -69,40 +69,49 @@
     </nav>
     <!-- HEADER END -->
 
-    <div class="login-form">
-        <form action="/examples/actions/confirmation.php" method="post">
-            <h2 class="text-center">Sign in</h2>
-            <div class="form-group">
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text">
-                            <span class="fa fa-user"></span>
-                        </span>
-                    </div>
-                    <input type="text" class="form-control form_input" name="username" placeholder="Username" required="required">
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text">
-                            <i class="fa fa-lock"></i>
-                        </span>
-                    </div>
-                    <input type="password" class="form-control" name="password" placeholder="Password" required="required">
-                </div>
-            </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-primary login-btn btn-block">Sign in</button>
-            </div>
-            <div class="clearfix">
-                <label class="float-left form-check-label"><input type="checkbox"> Remember me</label>
-                <a href="#" class="float-right">Forgot Password?</a>
-            </div>
+    <html lang="en">
 
-        </form>
-        <p class="text-center text-muted small no_account">Don't have an account? <a href="#">Sign up here!</a></p>
-    </div>
+    <head>
+        <!-- Meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1, shrink-to-fit = no">
+
+        <!-- Bootstrap CSS -->
+
+
+        <title>Bootstrap 4 Example</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="form_container">
+                <br><br>
+                <h2>Login</h2>
+                <br>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password">
+                    </div>
+
+                    <div class="form-group form-check">
+                        <label class="form-check-label" for="exampleCheck1">
+                    Don't have an account?<a href="#"> Create one!</a>
+                    </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign In</button>
+                </form>
+            </div>
+        </div>
+
+    </body>
+
+    </html>
 
     <!-- FOOTER START -->
     <footer class="page-footer font-small blue pt-4">
