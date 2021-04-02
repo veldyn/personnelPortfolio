@@ -1,0 +1,11 @@
+.panel-info {
+    border: 2px solid rgb(68, 98, 0);
+}
+
+.panel-title {
+    color: rgb(68, 98, 0);
+}
+
+.panel-heading {
+    background-color: rgb(68, 98, 0);
+}
