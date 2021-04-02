@@ -66,8 +66,6 @@
     outline: none;
 }
 
-.signup-form a {}
-
 .signup-form a:hover {
     text-decoration: none;
 }
