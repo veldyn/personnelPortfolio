@@ -18,6 +18,12 @@
             <div class="profile_page_picture_container">
                 <img src="profileImages/profileImageDefault.png" width="auto" height="300px" alt="profile picture" title="phrank" class="profile_page_profile_image">
             </div>
+            <div class="profile_page_button">
+                <form action="uploadImg.php" method="post" enctype="multipart/form-data">
+                    <input type="file" name="file" />
+                    <button type="submit" name="submit">Upload Profile Image</button>
+                </form>
+            </div>
             <div class="profile_page_information_container">
                 <div class="profile_page_information_text_container">
                     <p class="profile_page_information_text">
@@ -66,7 +72,11 @@
                 <embed src="userResume/EspinosaResumeGeneral.pdf" width="100%" height="1000px" />
             </div>
             <div class="profile_page_button_container">
-                <div class="profile_page_upload_container">
+                <form action="uploadResume.php" method="post" enctype="multipart/form-data">
+                    <input type="file" name="file" />
+                    <button type="submit" name="submit">Upload Resume</button>
+                </form>
+                <!--                 <div class="profile_page_upload_container">
                     <h3>
                         <a href="#" class="profile_page_upload_container_text">Upload</a>
                     </h3>
@@ -77,7 +87,7 @@
                         <a href="#" class="profile_page_comment_container_text">Comment</a>
                     </h3>
 
-                </div>
+                </div> -->
 
             </div>
 
