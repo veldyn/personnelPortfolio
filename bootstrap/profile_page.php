@@ -1,3 +1,8 @@
+<?php
+include 'php/connection.php';
+$username = $_SESSION['username'];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -79,7 +84,7 @@
         <div class="row">
             <div class="col-lg-4 col-xl-4">
                 <div class="card-box text-center">
-                    <img src="https://bootdey.com/img/Content/avatar/avatar7.png" class="rounded-circle avatar-xl img-thumbnail" alt="profile-image">
+                    <img src="images/<?php echo $username . "profileimg" ?>.png" class="rounded-circle avatar-xl img-thumbnail" alt="profile-image">
 
                     <h4 class="mb-0">John Smith</h4>
                     <p class="text-muted">@johnsmith</p>
@@ -194,7 +199,7 @@
                             <h5 class="mb-4 text-uppercase"><i class="mdi mdi-briefcase mr-1"></i> Resume
                             </h5>
 
-                            <iframe src="../customizeProfile/userResume/John Smith Resume.pdf" style="width:718px; height:900px;" frameborder="0"></iframe>
+                            <iframe src="resumes/<?php echo $username . "resume" ?>.pdf" style="width:718px; height:900px;" frameborder="0"></iframe>
 
                             <div class="resume_upload_button">
                                 <form action="uploadResume.php" method="post" enctype="multipart/form-data">

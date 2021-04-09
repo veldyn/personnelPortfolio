@@ -1,5 +1,9 @@
 <?php
 
+include 'php/connection.php';
+$username = $_SESSION['username'];
+
+
 if (isset($_POST['submit'])) {   // If the button is pressed
     $file = $_FILES['file'];
 
@@ -24,11 +28,10 @@ if (isset($_POST['submit'])) {   // If the button is pressed
 
         if ($fileError === 0) {                            // If we have no errors with uploading the file
 
-            if ($fileSize < 500000) {                    // If the file is not too big                
-                $fileNameNew = uniqid('', true) . "." . $fileActualExt;     // Create a new and unique file name            
-                $fileDestination = 'profileImages/' . $fileNameNew;       // Where we want to save the file
-                move_uploaded_file($fileTmpName, $fileDestination);     // Actually saving the file
-                echo "Upload successful";
+            if ($fileSize < 500000) {                    // If the file is not too big              
+                $fileNameNew = $username . "profileimg" . "." . $fileActualExt;     // Create a new and unique file name
+                $fileDestination = 'images/' . $fileNameNew;       // Where we want to save the file
+                move_uploaded_file($fileTmpName, $fileDestination);     // Actually saving the file    
             } else {
                 echo "The file is too big";
             }
