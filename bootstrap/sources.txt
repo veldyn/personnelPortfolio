@@ -1,0 +1,21 @@
+FRONTEND:
+
+Index (Home) Page: https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_portfolio&stacked=h
+
+Profile Page: https://www.bootdey.com/snippets/view/about-me-profile
+
+Employer Profile Page: https://www.bootdey.com/snippets/view/about-me-profile
+
+Create Account Page: https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=simple-sign-up-form-with-blue-background
+
+Login Page: https://mdbootstrap.com/snippets/jquery/hitesh_1/1124956
+
+Create Listing page: https://stackoverflow.com/questions/49141874/bootstrap-4-card-panel-with-image-left-of-header-and-title
+
+Header: https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_portfolio&stacked=h
+
+Footer: https://mdbootstrap.com/docs/b4/jquery/navigation/footer/
+
+Reset Password Page: https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=simple-sign-up-form-with-blue-background
+
+BACKEND:
