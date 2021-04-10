@@ -1,5 +1,8 @@
 <?php
 
+include 'php/connection.php';
+$username = $_SESSION['username'];
+
 if (isset($_POST['submit'])) {   // If the button is pressed
     $file = $_FILES['file'];
 
@@ -17,7 +20,7 @@ if (isset($_POST['submit'])) {   // If the button is pressed
     $fileActualExt = strtolower(end($fileExt));
 
     // Array of extensions allowed: common image extensions
-    $allowed = array('jpg', 'jpeg', 'png');
+    $allowed = array('pdf', 'PDF');
 
 
     if (in_array($fileActualExt, $allowed)) {              // If the extension is allowed
@@ -25,10 +28,9 @@ if (isset($_POST['submit'])) {   // If the button is pressed
         if ($fileError === 0) {                            // If we have no errors with uploading the file
 
             if ($fileSize < 500000) {                    // If the file is not too big                
-                $fileNameNew = uniqid('', true) . "." . $fileActualExt;     // Create a new and unique file name            
-                $fileDestination = 'profileImages/' . $fileNameNew;       // Where we want to save the file
+                $fileNameNew = $username . "resume" . "." . $fileActualExt;     // Create a new and unique file name            
+                $fileDestination = 'resumes/' . $fileNameNew;       // Where we want to save the file
                 move_uploaded_file($fileTmpName, $fileDestination);     // Actually saving the file
-                header()
             } else {
                 echo "The file is too big";
             }
@@ -36,6 +38,6 @@ if (isset($_POST['submit'])) {   // If the button is pressed
             echo "There was an error uploading the file";
         }
     } else {
-        echo "Invalid File Type. Please upload a JPG or PNG image";
+        echo "Invalid File Type. Please upload a PDF";
     }
 }

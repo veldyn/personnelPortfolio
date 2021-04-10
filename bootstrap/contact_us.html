@@ -3,16 +3,29 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Login</title>
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <title>About Us</title>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="bootstrapHeader_style.css">
     <link rel="stylesheet" href="bootstrapFooter_style.css">
-    <link rel="stylesheet" href="bootstrapLogin2_style.css">
+    <link rel="stylesheet" href="bootstrapLogin_style.css">
+
+
+    <style>
+        .about_us_text {
+            font-size: 16px;
+        }
+        
+        .about_us_page_container {
+            border: 2px solid black;
+            margin: auto;
+            width: 50%;
+            margin-top: 100px;
+            border-radius: 10px;
+        }
+    </style>
 
 </head>
 
@@ -65,68 +78,17 @@
         </div>
     </nav>
     <!-- HEADER END -->
-    <!------ Include the above in your HEAD tag ---------->
-    <br><br><br>
-    <div class="container">
-        <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-            <div class="panel panel-info">
-                <div class="panel-heading">
-                    <div class="panel-title">Sign In</div>
-                    <div style="float:right; font-size: 80%; position: relative; top:-10px"><a href="#">Forgot
-                            password?</a></div>
-                </div>
-
-                <div style="padding-top:30px" class="panel-body">
-
-                    <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
-
-                    <form id="loginform" class="form-horizontal" role="form">
-
-                        <div style="margin-bottom: 25px" class="input-group">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                            <input id="login-username" type="text" class="form-control" name="username" value="" placeholder="username or email">
-                        </div>
-
-                        <div style="margin-bottom: 25px" class="input-group">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                            <input id="login-password" type="password" class="form-control" name="password" placeholder="password">
-                        </div>
-
-
-
-
-
-
-                        <div style="margin-top:10px" class="form-group">
-                            <!-- Button -->
-
-                            <div class="col-sm-12 controls" style="margin: auto;">
-                                <a id="btn-login" href="#" class="btn btn-success">Login </a>
-
-
-                            </div>
-                        </div>
-
-
-                        <div class="form-group">
-                            <div class="col-md-12 control">
-                                <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%">
-                                    Don't have an account!
-                                    <a href="#" onClick="$('#loginbox').hide(); $('#signupbox').show()">
-                                        Sign Up Here
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-
-
-
-                </div>
-            </div>
-        </div>
-        <br><br><br><br><br><br>
+    <div class="container-fluid text-center text-md-left about_us_page_container">
+        <h1 style="text-decoration: underline;">Contact Us</h1>
+        <p class="about_us_text">If you have any questions or concerns, please use the information below to contact us.</p>
+        <br>
+        <p class="about_us_text"><strong>Personnel Portfolio LLC.</strong>
+            <br> 2150 Virginia Street, New York, NY 60154
+            <br> 555-555-5555
+            <br> <a href="mailto:name@company.com">name@company.com</a>
+        </p>
     </div>
+
     <!-- FOOTER START -->
     <footer class="page-footer font-small blue pt-4">
 

@@ -1,54 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
-    <meta charset="utf-8">
-    <title>Personnel Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-  <body>
-       <?php include 'header.php'; ?>
-              
-    <div class="content">
-      <br><br>
-      <form action="register.php" id="regForm" method="post">
-        <h1 align="center">Create an Account</h1>
-        <table>
-          <tr>
-            <td class="width2">First Name:</td>
-            <td class="width"><input class="width" type="text" name="firstName" id="firstName" required></td>
-          </tr>
-          <tr>
-            <td class="width2">Last Name:</td>
-            <td class="width"><input class="width" type="text" name="lastName" id="lastName" required></td>
-          </tr>
-          <tr>
-            <td class="width2">Email-Address:</td>
-            <td class="width"><input class="width" type="text" name="emailAddress" id="emailAddress" required></td>
-          </tr>
-          <tr>
-            <td class="width2">Address:</td>
-            <td class="width"><input class="width" type="text" name="address" id="address" required></td>
-          </tr>
-          <tr>
-            <td class="width2">Username:</td>
-            <td class="width"><input class="width" type="text" name="username" id="username" required></td>
-          </tr>
-          <tr>
-            <td class="width2">Password:</td>
-            <td class="width"><input class="width" type="text" name="password" id="password" required></td>
-          </tr>
-        </table>
-        <br>
-        <p align="center">
-        <input align="center" class="width1" type="submit" value="Submit" name="submit">
-        </p>
-      </form>
+<div class="content">
+  <div class="row">
+    <div class="borderAroundForm">
+      <div class="col-sm 8 text-center">
+        <form action="register.php" id="regForm" method="post">
+          <h1 align="center">Create an Account</h1>
+          <div class="border">
+            <div class="col-sm 6 text-center">
+              <div class="row">
+                <input type="text" placeholder="First Name" name="firstName" id="firstName" required>&nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="Last Name" name="lastName" id="lastName" required>
+              </div>
+            </div>
+            <br>
+            <div class="col-sm 6 text-center">
+              <div class="row">
+                <input type="text" name="emailAddress" placeholder="Email-Address" id="emailAddress" required>
+              </div>
+            </div>
+            <br>
+            <div class="col-sm 6 text-center">
+              <div class="row">
+                <input type="text" placeholder="Home Address" name="address" id="address" required>
+              </div>
+            </div>
+            <br>
+            <div class="col-sm 6 text-center">
+              <div class="row">
+                <label>User Role:</label><br>
+                <input type="radio" name="userRole" id="e" value="e" required>
+                <label for="Employer">Employer</label><br>
+                <input type="radio" name="userRole" id="s" value="s" required>
+                <label for="Student">Student</label>&nbsp;&nbsp;&nbsp;&nbsp;
+              </div>
+            </div>
+            <br>
+            <div class="col-sm 6 text-center">
+              <div class="row">
+                <input placeholder="Username" type="text" name="username" id="username" required>
+              </div>
+            </div>
+            <br>
+            <div class="col-sm 6 text-center">
+              <div class="row">
+                <input placeholder="Password" type="text" name="password" id="password" required>
+                <br><br>
+                <p align="center">
+                  <input class="submitButton" align="center" type="submit" value="Submit" name="submit">
+                </p </div>
+              </div>
+            </div>
+        </form>
+      </div>
     </div>
-  </body>
-</html>
-
-
-
-
+  </div>
