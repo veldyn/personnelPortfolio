@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Create Listing</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link rel="stylesheet" href="create_listing_style.css">
+
+</head>
+
+<body>
+ <!-- Below is the code for the header -->
+    <header>
+        <div class="header">
+            <div class="headerLogo">
+                <a href="index.html" style="text-decoration: none; color: black;">
+                    <h1 style="text-align: left;" width="30%">Personnel Portfolio</h1>
+                </a>
+            </div>
+            <ul class="navMenu">
+                <div class="navMenuItem">
+
+                    <li><a href="create_listing.html">Create Listings</a></li>
+                    <li><a href="listings.php">Listings</a></li>
+                    
+                </div>
+            </ul>
+            <hr>
+        </div>
+
+    </header>
+    <!-- End of the code for the header -->
+
+    <main>
+        <div class="create_listing_heading_container">
+            <h1 style="text-align: center;">New Listing</h1>
+        </div>
+
+        <div class="create_listing_form_container">
+            <div class="creating_listing_content_container">
+                <form action="">
+                    <div class="create_listing_form_table_container">
+
+                        <table>
+                            <tr>
+                                <td>
+                                    <label for="position_title">Position Title</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="position_title" id="position_title">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="position_ID">Position ID</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="position_ID" id="position_ID">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="location">Location</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="location" id="location">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="vertical-align: top;">
+                                    <label for="description">Description</label>
+                                </td>
+                                <td>
+                                    <textarea name="descript" id="" cols="30" rows="10" placeholder="Enter the description"></textarea>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="create_listing_form_right_container">
+                        <table>
+                            <tr>
+                                <td>
+                                    <label for="additional_information">Additional Information</label>
+                                </td>
+                                <td>
+                                    <textarea name="additional_information" id="" cols="30" rows="10" placeholder="Additional information"></textarea>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </form>
+            </div>
+            <div class="create_listing_button_continer">
+                <button>
+                    submit
+                </button>
+            </div>
+        </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <!-- Address tag centered and button which brings you back to top of page -->
+        <address id="Footer">
+            <a id="button" href="create_listing.html">Back to Top</a><br><br>
+            <div class="rowFooter">
+                <div class="columnFooter">
+                    <!--contact, support, and about sample information provided in footer-->
+                    <h3>Contact</h3>
+                    <p style=color:gray;>2150 Virginia Street, New York, NY 60154<br> 555-555-5555<br> name@company.com
+                    </p>
+                </div>
+                <div class="columnFooter">
+                    <h3>Support</h3>
+                    <p style=color:gray;>Terms and Conditions <br> Privacy Policy <br> Return Policy</p>
+                </div>
+                <div class="columnFooter">
+                    <h3>About</h3>
+                    <p style=color:gray;>About <br> News <br> Contact</p>
+                </div>
+            </div>
+        </address>
+    </footer>
+</body>
+
+</html>

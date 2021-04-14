@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper1{
+    width: auto;
+    height: 150px;
+    border: 1px solid #e1e1e1;
+    margin: 0 auto 0 auto;
+}
+
+.header{
+    width: auto;
+    height: 125px;
+    background-image: url(/images/backtest.jpg);
+    background-repeat: no-repeat;
+
+}
+
+
+.navbar{
+    width: auto;
+    height: 25px;
+    background-image: url(/images/navtest.jpg);
+    background-repeat: repeat-x;
+}
+
+.button a{
+    float: left;
+    width: 150px;
+    height: 25px;
+    line-height: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+.button a:hover{
+    float: left;
+    width: 150px;
+    height: 25px;
+    line-height: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    background-image: url(/images/navtest2.jpg);
+    background-repeat: repeat-x;
+}
+
+.buttonRight a{
+    float: right;
+    width: 150px;
+    height: 25px;
+    line-height: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+.buttonRight a:hover{
+    float: right;
+    width: 150px;
+    height: 25px;
+    line-height: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    background-image: url(/images/navtest2.jpg);
+    background-repeat: repeat-x;
+}
+
+.mainbody{
+    
+    width: auto;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    color: #515151;
+    background: #e1e1e1;
+}

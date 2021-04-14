@@ -1,0 +1,142 @@
+/* Below is the style for the profile_page.html */
+
+.profile_page_main_container {
+    /* border: 2px solid red; */
+    width: auto;
+    height: auto;
+    /* MAKE THIS DYNAMIC AND FLUID*/
+    display: flex;
+    /* overflow: hidden; */
+    padding: 15px;
+    margin: 15px;
+}
+
+.profile_page_info_container {
+     border: 1px solid black; 
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+.profile_page_heading_text_container {
+    /* border: 5px solid violet; */
+    height: auto;
+}
+
+.profile_page_picture_container {
+    /* border: 5px solid violet; */
+    margin: auto;
+    margin-top: 5px;
+    width: 50%;
+}
+
+img.profile_page_profile_image {
+    margin: auto;
+    display: block;
+}
+
+.profile_page_information_container {
+  /*   border: 5px solid black; */
+	border-bottom: 1px solid black;
+    margin: auto;
+    width: 50%;
+}
+
+.profile_page_information_text_container {
+    /* border: 2px solid mediumorchid; */
+}
+
+p.profile_page_information_text {
+    text-align: center;
+}
+
+.profile_page_bio_container {
+    /* border: 5px solid violet; */
+    margin-top: 5px;
+    height: auto;
+    word-wrap: break-word;
+}
+
+.profile_page_exp_container {
+    /* border: 5px solid violet; */
+    margin-top: 5px;
+    height: auto;
+    word-wrap: break-word;
+}
+
+.profile_page_interests_container {
+    /* border: 5px solid violet; */
+    margin-top: 5px;
+    height: auto;
+    word-wrap: break-word;
+}
+
+.profile_page_resume_container {
+     border: 2px solid black; 
+    width: 60%;
+    display: inline-block;
+    height: 95%;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.profile_page_resume_image_container {
+    /* border: 2px solid violet; */
+    height: auto;
+    padding: 10px;
+}
+
+img.profile_page_resume_image {
+    margin: auto;
+    width: 80%;
+    display: block;
+}
+
+.profile_page_button_container {
+    border: 2px solid black;
+    height: 8%;
+    margin-top: 2px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.profile_page_upload_container {
+    /* border: 2px solid brown; */
+    width: 15%;
+    height: 90%;
+    margin: auto;
+    background-color: gray;
+    text-align: center;
+    display: block;
+}
+
+.profile_page_upload_container:hover {
+    background-color: chartreuse;
+}
+
+.profile_page_upload_container_text {
+    text-decoration: none;
+}
+
+.profile_page_comment_container {
+    /* border: 2px solid hotpink; */
+    width: 15%;
+    height: 90%;
+    margin: auto;
+    background-color: gray;
+    text-align: center;
+    display: block;
+}
+
+.profile_page_comment_container:hover {
+    /* background-color: aquamarine; */
+}
+
+.profile_page_comment_container_text {
+    text-decoration: none;
+}
+

@@ -1,0 +1,50 @@
+address {
+    font-family: Verdana;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-top: 1px solid white;
+    background-color: black;
+}
+
+button,
+select {
+    font-size: 16px;
+    font-family: Karla, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #666;
+    line-height: 1.375;
+}
+
+.rowFooter:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.columnFooter {
+    float: left;
+    width: 33.33%;
+    align-content: center;
+}
+
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 97.15%;
+    height: 5rem;
+    padding-top:5px;            /* Footer height */
+  }
+
+/* End of the style for the footer section */

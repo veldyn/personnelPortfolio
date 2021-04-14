@@ -1,0 +1,37 @@
+#main_container {
+    margin-top: 5px;
+    width: 99%;
+    border: 5px solid black;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-color: white;
+}
+
+#student_login_container {
+    /* border: 2px solid red; */
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #999999;
+    color: black;
+}
+
+#student_login_container:hover {
+    background-color: gray;
+}
+
+#employer_login_container {
+    /* border: 2px solid pink; */
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #999999;
+}
+
+#employer_login_container:hover {
+    background-color: gray;
+}
+
+

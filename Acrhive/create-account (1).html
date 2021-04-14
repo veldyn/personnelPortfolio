@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <meta charset="utf-8">
+    <title>Personnel Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+     <!-- Below is the code for the header -->
+    <header>
+        <div class="header">
+            <div class="headerLogo">
+                <a href="index.html" style="text-decoration: none; color: black;">
+                    <h1 style="text-align: left;" width="30%">Personnel Portfolio</h1>
+                </a>
+            </div>
+            <ul class="navMenu">
+                <div class="navMenuItem">
+
+                    <li><a href="create_listing.html">Create Listings</a></li>
+                    <li><a href="listings.php">Listings</a></li>
+                   
+                </div>
+            </ul>
+            <hr>
+        </div>
+
+    </header>
+    <!-- End of the code for the header -->
+    <div class="content">
+      <br><br>
+      <form action="connection.php" id="regForm" method="post" >
+        <h1 align="center">Create an Account</h1>
+        <table>
+          <tr>
+            <td class="width2">First Name:</td>
+            <td class="width"><input class="width" type="text" name="firstName" id="firstName"></td>
+          </tr>
+          <tr>
+            <td class="width2">Last Name:</td>
+            <td class="width"><input class="width" type="text" name="lastName" id="lastName"></td>
+          </tr>
+          <tr>
+            <td class="width2">Email-Address:</td>
+            <td class="width"><input class="width" type="text" name="emailAddress" id="emailAddress"></td>
+          </tr>
+          <tr>
+            <td class="width2">Address:</td>
+            <td class="width"><input class="width" type="text" name="address" id="address"></td>
+          </tr>
+          <tr>
+            <td class="width2">Username:</td>
+            <td class="width"><input class="width" type="text" name="username" id="username"></td>
+          </tr>
+          <tr>
+            <td class="width2">Password:</td>
+            <td class="width"><input class="width" type="text" name="password" id="password"></td>
+          </tr>
+        </table>
+        <br>
+		<p align="center">
+        <input align="center" class="width1" type="submit" value="Submit" name="submit">
+		</p>
+      </form>
+    </div>
+<footer>
+        <!-- Address tag centered and button which brings you back to top of page -->
+        <address id="Footer">
+            <a id="button" href="create-account.html">Back to Top</a><br><br>
+            <div class="rowFooter">
+                <div class="columnFooter">
+                    <!--contact, support, and about sample information provided in footer-->
+                    <h3>Contact</h3>
+                    <p style=color:gray;>2150 Virginia Street, New York, NY 60154<br> 555-555-5555<br> name@company.com
+                    </p>
+                </div>
+                <div class="columnFooter">
+                    <h3>Support</h3>
+                    <p style=color:gray;>Terms and Conditions <br> Privacy Policy <br> Return Policy</p>
+                </div>
+                <div class="columnFooter">
+                    <h3>About</h3>
+                    <p style=color:gray;>About <br> News <br> Contact</p>
+                </div>
+            </div>
+        </address>
+    </footer>
+  </body>
+</html>
