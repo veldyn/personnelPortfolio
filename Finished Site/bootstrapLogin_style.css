@@ -1,0 +1,10 @@
+#exampleInputEmail1,
+#exampleInputPassword1 {
+    width: 300px;
+}
+
+.form_container {
+    width: 50%;
+    align-items: center;
+    margin: auto;
+}
