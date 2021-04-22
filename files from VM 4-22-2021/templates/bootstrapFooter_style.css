@@ -1,0 +1,11 @@
+a {
+    color: rgb(68, 98, 0);
+}
+
+footer {
+    background-color: rgb(211, 211, 211);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid black;
+}
